@@ -1,0 +1,24 @@
+:root {
+    --background-color: white;
+    --background-light: white;
+    --background-dark: rgba(0, 0, 0, 0.652);
+    --primary-color: rgb(30, 255, 255);
+    --text-color-light: rgb(65, 65, 65);
+    --text-color-dark: white;
+    --font-size: 16px;
+    --animation-speed: 1;
+    --box-shadow: rgba(54, 53, 53, 0.314);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: var(--font-size);
+    font-family: "Roboto", "sans-serif";
+}
+
+a {
+    text-decoration: none;
+}

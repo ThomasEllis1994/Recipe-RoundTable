@@ -1,0 +1,78 @@
+:root {
+    --background-color: white;
+    --background-light: white;
+    --background-dark: rgba(0, 0, 0, 0.652);
+    --primary-color: rgb(30, 255, 255);
+    --text-color-light: rgb(65, 65, 65);
+    --text-color-dark: white;
+    --font-size: 16px;
+    --animation-speed: 1;
+    --box-shadow: rgba(54, 53, 53, 0.314);
+}
+
+.recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.recipeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+
+    margin: 10px;
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    height: 22vw;
+    width: 22vw;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    z-index: 3;
+    transition: all 0.4s;
+}
+.cover:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+.infoItem {
+    z-index: 5;
+}
+
+.recipeCardPic {
+    overflow: hidden;
+}
+.recipeCardPic img {
+    object-fit: cover;
+    height: 22vw;
+    width: 22vw;
+    overflow: hidden;
+    z-index: -1;
+}
+.recipeCardTitle {
+    font-size: 1.3vw;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* z-index: 5; */
+}
+.recipeTime {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    /* z-index: 5; */
+    display: flex;
+    color: white;
+    font-size: 1.2vw;
+}

@@ -1,0 +1,7 @@
+.recipeList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.catTitle {
+    font-size: 8vh;
+}
