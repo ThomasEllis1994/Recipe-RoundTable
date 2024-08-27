@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import recipesData from "../db/recipesData";
 import { useState, useEffect } from "react";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
+// import AccessTimeIcon from "@mui/icons-material/AccessTime";
 function SingleRecipePage() {
     const params = useParams();
 
