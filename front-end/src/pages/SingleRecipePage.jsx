@@ -11,7 +11,7 @@ function SingleRecipePage() {
 
     // use useEffect for under
 
-    setRecipe;
+    // setRecipe;
     useEffect(() => {
         if (!recipeData) return;
         const singleRecipe =

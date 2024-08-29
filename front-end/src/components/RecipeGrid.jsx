@@ -7,8 +7,8 @@ import { useFetchRecipes } from "../hooks/useFetchRecipes";
 export function RecipeGrid() {
     // const [isLoading, setIsLoading] = useState([true]);
 
-    const { recipeData, loading } = useFetchRecipes();
-    console.log(recipeData, loading);
+    const { recipeData, isLoading } = useFetchRecipes();
+    console.log(recipeData, isLoading);
     // console.log(recipeData);
 
     // loading ? console.log("loading") : setRecipes(recipeData);
@@ -22,7 +22,7 @@ export function RecipeGrid() {
     //         setIsLoading(false);
     //     }, 0);
     // }, []);
-    if (loading) {
+    if (isLoading) {
         return (
             <>
                 <p>Loading...</p>

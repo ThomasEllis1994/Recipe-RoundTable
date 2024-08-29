@@ -54,7 +54,7 @@ export const HomePage = () => {
                 </div>
                 <div className="heroRecipes RoW">
                     <h2 style={{ textAlign: "center" }}>Recipe of the Week</h2>
-                    <RecipeOfTheWeek recipeId={2} />
+                    <RecipeOfTheWeek title="Steak Fried Rice" />
                 </div>
             </article>
 

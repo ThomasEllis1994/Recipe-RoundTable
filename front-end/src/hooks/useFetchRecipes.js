@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 export const useFetchRecipes = () => {
     const [recipeData, setRecipeData] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
     useEffect(() => {
         axios
@@ -11,7 +11,7 @@ export const useFetchRecipes = () => {
                 setRecipeData(recipes.data.data);
             })
             .catch((err) => setError(err))
-            .finally(setLoading(false));
+            .finally(setIsLoading(false));
     }, []);
-    return { recipeData, loading, error };
+    return { recipeData, isLoading, error };
 };
