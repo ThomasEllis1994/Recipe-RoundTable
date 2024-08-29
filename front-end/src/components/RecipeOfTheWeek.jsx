@@ -17,8 +17,8 @@ export function RecipeOfTheWeek(props) {
         <div className="recipeContainer">
             <>
                 <RecipeCard
-                    recipeId={recipe.recipeId}
-                    imageURL={recipe.imageURL}
+                    recipeId={recipe._id}
+                    imageURL={recipe.imageUrl}
                     title={recipe.title}
                     time={recipe.time}
                 />

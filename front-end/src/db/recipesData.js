@@ -1,10 +1,10 @@
 const RecipesData = [
     {
         title: "Steak Fried Rice",
-        recipeId: 1,
-        imageURL: "../../src/photos/Recipe-Photos/steakFriedRice.jpg",
+        _id: 1,
+        imageUrl: "../../src/photos/Recipe-Photos/steakFriedRice.jpg",
         src: "/steakFriedRice",
-        blurb: "This is yummy",
+
         methods: ["Sous Vide", "Saute"],
         categories: ["Dinner", "Steak", "Rice"],
         time: "1 hr",
@@ -28,13 +28,13 @@ const RecipesData = [
     },
     {
         title: "Dino Chicken Nuggets",
-        recipeId: 2,
-        imageURL: "../../src/photos/Recipe-Photos/DinoNuggies.png",
+        _id: 2,
+        imageUrl: "../../src/photos/Recipe-Photos/DinoNuggies.png",
         src: "../HTML/Recipes/DinoNuggies.html",
         methods: ["Air Fry", "Bake"],
         categories: ["Dinner", "Chicken"],
         time: "16 Min",
-        blurb: "This is yummy",
+
         ingredients: ["8 nuggets"],
         instructions: [
             "Preheat oven to 350F. Then insert the dino nuggies into the oven. After 8 minutes, flip them. Cook for 8 more minutes, then remove from oven and serve.",
@@ -43,10 +43,10 @@ const RecipesData = [
     },
     {
         title: "Breakfast Burritos",
-        recipeId: 3,
-        imageURL: "../../src/photos/Recipe-Photos/Breakfast-Burrito.jpg",
+        _id: 3,
+        imageUrl: "../../src/photos/Recipe-Photos/Breakfast-Burrito.jpg",
         src: "../HTML/Recipes/BreakfastBurrito.html",
-        blurb: "This is yummy",
+
         methods: ["Saute"],
         categories: ["Breakfast", "eggs"],
         time: "1 hr",
@@ -69,10 +69,10 @@ const RecipesData = [
     },
     {
         title: "Mini Pizza Rolls",
-        recipeId: 4,
-        imageURL: "../../src/photos/Recipe-Photos/miniPizzaRolls.JPG",
+        _id: 4,
+        imageUrl: "../../src/photos/Recipe-Photos/miniPizzaRolls.JPG",
         src: "../HTML/Recipes/MiniPizzaRolls.html",
-        blurb: "This is yummy",
+
         methods: ["bake"],
         categories: ["Dinner", "Pepperoni"],
         time: "30 min",
@@ -94,10 +94,10 @@ const RecipesData = [
     },
     {
         title: "Pepperoni Stuffed Chicken",
-        recipeId: 5,
-        imageURL: "../../src/photos/Recipe-Photos/PepperoniStuffedChicken.jpg",
+        _id: 5,
+        imageUrl: "../../src/photos/Recipe-Photos/PepperoniStuffedChicken.jpg",
         src: "../HTML/Recipes/PepperoniStuffedChicken.html",
-        blurb: "This is yummy",
+
         time: "1 hr",
         methods: ["Bake"],
         categories: ["Dinner", "Chicken"],
@@ -123,11 +123,11 @@ const RecipesData = [
     },
     {
         title: "Flank Steak",
-        imageURL: "../../src/photos/Recipe-Photos/Flank-Steak.JPG",
+        imageUrl: "../../src/photos/Recipe-Photos/Flank-Steak.JPG",
         src: "",
-        recipeId: 6,
+        _id: 6,
         time: "1.5 hr",
-        blurb: "This is yummy",
+
         methods: ["Sous Vide"],
         categories: ["Dinner", "Steak"],
         ingredients: ["Flank Steak", "Seasoning"],
@@ -142,12 +142,12 @@ const RecipesData = [
     },
     {
         title: "Cinnamon Swirl Sock it to Me Cake",
-        recipeId: 7,
-        imageURL: "../../src/photos/Recipe-Photos/Cinnamon-Swirl-Cake.jpg",
+        _id: 7,
+        imageUrl: "../../src/photos/Recipe-Photos/Cinnamon-Swirl-Cake.jpg",
         src: "",
 
         time: "1 hr",
-        blurb: "This is yummy",
+
         methods: "Baking",
         categories: ["Dessert", "Cake"],
         ingredients: [
@@ -174,12 +174,12 @@ const RecipesData = [
     },
     {
         title: "Chicken Fried Rice",
-        recipeId: 8,
-        imageURL: "../../src/photos/Recipe-Photos/Chicken-Fried-Rice.jpg",
+        _id: 8,
+        imageUrl: "../../src/photos/Recipe-Photos/Chicken-Fried-Rice.jpg",
         src: "",
 
         time: "1.2 hr",
-        blurb: "This is yummy",
+
         methods: ["saute", "sous vide"],
         categories: ["Dinner", "Chicken"],
 
@@ -203,12 +203,12 @@ const RecipesData = [
     },
     {
         title: "Hawaiian Sliders",
-        recipeId: 9,
-        imageURL: "../../src/photos/Recipe-Photos/Hawaiian-Sliders.JPG",
+        _id: 9,
+        imageUrl: "../../src/photos/Recipe-Photos/Hawaiian-Sliders.JPG",
         methods: ["saute", "grill"],
         categories: ["Dinner", "burgers", "beef", "tropical"],
         time: "45 Min",
-        blurb: "This is yummy",
+
         ingredients: [
             "1 Cup Ground Beef",
             "Hawaiian Rolls",
@@ -229,12 +229,12 @@ const RecipesData = [
     },
     {
         title: "Pineapple Mango Salsa",
-        recipeId: 10,
-        imageURL: "../../src/photos/Recipe-Photos/Mango-Salsa-Chicken.JPG",
+        _id: 10,
+        imageUrl: "../../src/photos/Recipe-Photos/Mango-Salsa-Chicken.JPG",
         methods: ["saute", "grill"],
         categories: ["Dinner", "Chicken", "tropical"],
         time: "45 Min",
-        blurb: "This is yummy",
+
         ingredients: [
             "2 Cup Mango",
             "4 Cups Pineapple",
@@ -252,12 +252,12 @@ const RecipesData = [
     },
     {
         title: "Fried Eggs",
-        recipeId: 11,
-        imageURL: "../../src/photos/Recipe-Photos/Fried-Eggs.JPG",
+        _id: 11,
+        imageUrl: "../../src/photos/Recipe-Photos/Fried-Eggs.JPG",
         methods: ["saute", "grill"],
         categories: ["Breakfast", "Eggs", "Easy"],
         time: "45 Min",
-        blurb: "This is yummy",
+
         ingredients: [
             "2-3 Eggs",
             "Garlic Italian Zest Seasoning.",
@@ -272,12 +272,12 @@ const RecipesData = [
     },
     {
         title: "Zesty Seafood Pasta",
-        recipeId: 12,
-        imageURL: "../../src/photos/Recipe-Photos/Lemon Seafood Pasta.jpg",
+        _id: 12,
+        imageUrl: "../../src/photos/Recipe-Photos/Lemon Seafood Pasta.jpg",
         methods: ["saute", "grill"],
         categories: ["Breakfast", "Eggs", "Easy"],
         time: "45 Min",
-        blurb: "This is yummy",
+
         ingredients: [
             "1 Pound Linguini Noodles",
             "1 Lemon Zested",

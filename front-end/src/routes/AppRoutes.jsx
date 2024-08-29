@@ -11,7 +11,7 @@ const AppRoutes = (props) => {
             <Route path="/" element={<HomePage {...props} />} />
             <Route path="/recipes" element={<RecipesPage {...props} />} />
             <Route
-                path="/recipes/:recipeId"
+                path="/recipes/:_id"
                 element={<SingleRecipePage {...props} />}
             />
             <Route path="/about" element={<AboutPage {...props} />} />
