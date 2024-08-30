@@ -18,8 +18,7 @@ export function RecipeOfTheWeek(props) {
             recipeData.find((recipe) => recipe.title === props.title);
         setRecipe(singleRecipe);
     }, [props.title, recipeData]);
-    console.log(recipe);
-
+    // Testing - console.log(recipeData);
     return (
         <div className="recipeContainer">
             <>

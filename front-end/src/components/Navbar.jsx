@@ -25,8 +25,8 @@ export default function Navbar() {
                         <NavLink className="navLink" to="/recipes">
                             Recipes
                         </NavLink>
-                        <NavLink className="navLink" to="*">
-                            Dinner Helper
+                        <NavLink className="navLink" to="/recipeRoulette">
+                            Recipe Roulette
                         </NavLink>
                         <NavLink className="navLink" to="*">
                             Submit a Recipe

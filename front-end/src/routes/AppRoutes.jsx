@@ -4,6 +4,7 @@ import RecipesPage from "../pages/RecipesPage";
 import SingleRecipePage from "../pages/SingleRecipePage";
 import { AboutPage } from "../pages/AboutPage";
 import PageNotFound from "../pages/PageNotFound";
+import RecipeRoulettePage from "../pages/RecipeRoulettePage";
 const AppRoutes = (props) => {
     return (
         <Routes>
@@ -13,6 +14,10 @@ const AppRoutes = (props) => {
             <Route
                 path="/recipes/:_id"
                 element={<SingleRecipePage {...props} />}
+            />
+            <Route
+                path="/recipeRoulette"
+                element={<RecipeRoulettePage {...props} />}
             />
             <Route path="/about" element={<AboutPage {...props} />} />
             <Route path="*" element={<PageNotFound />} />

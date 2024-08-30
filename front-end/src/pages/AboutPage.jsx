@@ -28,18 +28,18 @@ export function AboutPage() {
                         out on facetime while cooking. Soon our best friend
                         Shilohe heard of it and wanted to join. It was his idea
                         to begin actually cooking the same thing and to turn our
-                        evening hangouts into cooking classNamees to teach one
+                        evening hangouts into cooking classes to teach one
                         another different recipes. Soon enough our whole
                         sohpomore year crew was in on it and we had 12 people
                         cycling through teaching recipes. Not everyone cooked,
-                        but the classNamees were a way of bringing us together
-                        from across the country.
+                        but the classes were a way of bringing us together from
+                        across the country.
                     </p>
                     <br />
                     <p className="story">
                         I wanted a place to share all the recipes I learned
                         during that time.This website is an homage to those
-                        classNamees and to my friends.
+                        classes and to my friends.
                     </p>
                 </div>
             </div>

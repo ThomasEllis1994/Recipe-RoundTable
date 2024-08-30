@@ -19,7 +19,7 @@ function SingleRecipePage() {
             recipeData.find((recipe) => recipe._id === params._id);
         setRecipe(singleRecipe);
     }, [params._id, recipeData]);
-    console.log(recipe);
+    // console.log(recipe);
     return (
         <>
             <div className="recipePageLayout">

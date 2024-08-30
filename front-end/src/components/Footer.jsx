@@ -12,8 +12,11 @@ export const Footer = () => {
                     <NavLink className="footerNav community" href="#!">
                         Sign up for our newsletter
                     </NavLink>
-                    <NavLink className="footerNav community" to="#!">
-                        Can&apost Decide What to Eat?
+                    <NavLink
+                        className="footerNav community"
+                        to="/recipeRoulette"
+                    >
+                        Play some Recipe Roulette
                     </NavLink>
                 </div>
             </footer>
