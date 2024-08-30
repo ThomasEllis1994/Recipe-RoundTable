@@ -12,6 +12,7 @@ import "./styles/singleRecipePage.css";
 import "./styles/about.css";
 import "./styles/recipesPage.css";
 import "./styles/pageNotFound.css";
+import "./styles/recipeRoulette.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
