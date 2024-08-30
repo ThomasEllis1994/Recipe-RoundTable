@@ -1,4 +1,4 @@
-import { RecipeOfTheWeek } from "../components/RecipeOfTheWeek";
+import RecipeList from "../components/RecipeList";
 
 export default function RecipesPage() {
     return (
@@ -8,9 +8,8 @@ export default function RecipesPage() {
                     <h2 className="catTitle">Breakfast</h2>
                 </div>
                 <div className="recipeList">
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
+                    <RecipeList categories={["Breakfast"]} />
+
                     {/* <RecipeOfTheWeek recipeId={2} />
                     <RecipeOfTheWeek recipeId={10} /> */}
                 </div>
@@ -20,19 +19,7 @@ export default function RecipesPage() {
                     <h2 className="catTitle">Dinner</h2>
                 </div>
                 <div className="recipeList">
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    {/* <RecipeOfTheWeek recipeId={0} />
-                    <RecipeOfTheWeek recipeId={3} />
-                    <RecipeOfTheWeek recipeId={4} />
-                    <RecipeOfTheWeek recipeId={5} />
-                    <RecipeOfTheWeek recipeId={7} />
-                    <RecipeOfTheWeek recipeId={8} />
-                    <RecipeOfTheWeek recipeId={9} />
-                    <RecipeOfTheWeek recipeId={11} /> */}
+                    <RecipeList categories={["Dinner"]} />
                 </div>
             </div>
             <div className="recipeCat">
@@ -40,9 +27,7 @@ export default function RecipesPage() {
                     <h2 className="catTitle">Dessert</h2>
                 </div>
                 <div className="recipeList">
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    <RecipeOfTheWeek title="Steak Fried Rice" />
-                    {/* <RecipeOfTheWeek recipeId={6} /> */}
+                    <RecipeList categories={["Dessert"]} />
                 </div>
             </div>
         </>

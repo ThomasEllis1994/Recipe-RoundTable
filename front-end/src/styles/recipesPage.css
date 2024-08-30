@@ -5,3 +5,7 @@
 .catTitle {
     font-size: 8vh;
 }
+.box {
+    display: flex;
+    flex-direction: row;
+}
