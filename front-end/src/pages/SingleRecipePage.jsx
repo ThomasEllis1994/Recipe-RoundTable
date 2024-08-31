@@ -62,7 +62,7 @@ function SingleRecipePage() {
                         </ol>
                     </div>
                 </div>
-                <div className="recipePageRight">Hello from the other side</div>
+                <div className="recipePageRight"></div>
             </div>
         </>
     );

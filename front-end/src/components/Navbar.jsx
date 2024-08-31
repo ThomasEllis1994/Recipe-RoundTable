@@ -4,6 +4,7 @@ export default function Navbar() {
     return (
         <div className="navbar navContainer">
             <div className="leftNav navItem">
+                {/* use react router to link to pages */}
                 <NavLink to="/">
                     <img
                         src="../../src/photos/Site-Photos/Electric-Blue-Logo.png"
@@ -19,6 +20,7 @@ export default function Navbar() {
                 <div className="navLinks navItem">
                     <div></div>
                     <div className="siteLinks">
+                        {/* use react router to link to pages */}
                         <NavLink className="navLink" to="/">
                             Home
                         </NavLink>
@@ -28,7 +30,7 @@ export default function Navbar() {
                         <NavLink className="navLink" to="/recipeRoulette">
                             Recipe Roulette
                         </NavLink>
-                        <NavLink className="navLink" to="*">
+                        <NavLink className="navLink" to="/submit-recipe">
                             Submit a Recipe
                         </NavLink>
                         <NavLink className={"navLink"} to="/about">

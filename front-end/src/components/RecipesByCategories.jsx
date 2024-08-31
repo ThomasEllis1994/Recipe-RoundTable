@@ -1,3 +1,7 @@
+//old component that used instead of RecipeList
+//uses internal database
+//repurpose for use in filtered recipe response once search is implemented
+
 import recipesData from "../db/recipesData";
 import { useEffect, useState } from "react";
 import { RecipeCard } from "./RecipeCard";

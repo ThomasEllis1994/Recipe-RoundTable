@@ -5,6 +5,7 @@ export const Footer = () => {
         <>
             <footer>
                 <div className="footer">
+                    {/* use react router to link to pages */}
                     <NavLink className="footerNav community" href="#!">
                         Sign In
                     </NavLink>

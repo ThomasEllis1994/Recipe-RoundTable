@@ -5,6 +5,7 @@ import SingleRecipePage from "../pages/SingleRecipePage";
 import { AboutPage } from "../pages/AboutPage";
 import PageNotFound from "../pages/PageNotFound";
 import RecipeRoulettePage from "../pages/RecipeRoulettePage";
+import SubmitRecipePage from "../pages/SubmitRecipePage";
 const AppRoutes = (props) => {
     return (
         <Routes>
@@ -20,6 +21,10 @@ const AppRoutes = (props) => {
                 element={<RecipeRoulettePage {...props} />}
             />
             <Route path="/about" element={<AboutPage {...props} />} />
+            <Route
+                path="/submit-recipe"
+                element={<SubmitRecipePage {...props} />}
+            />
             <Route path="*" element={<PageNotFound />} />
             {/* <Route path="/about" element={<AboutPage {...props} />} />
 

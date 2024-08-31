@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 const useFilteredRecipes = (categories) => {
+    //set states needed to filter through recipes
     const [recipes, setRecipes] = useState([]);
     const [filteredRecipes, setFilteredRecipes] = useState([]);
 
@@ -19,7 +20,7 @@ const useFilteredRecipes = (categories) => {
         };
 
         fetchRecipes();
-    }, []); // Empty dependency array means this runs once when component mounts
+    }, []); // Empty dependency array means this runs once when component mounts. Use dependencies when using dynamic data
 
     // Filter recipes by categories
     const filterRecipes = useCallback(() => {
