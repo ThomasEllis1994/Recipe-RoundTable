@@ -23,6 +23,9 @@ function SingleRecipePage() {
     return (
         <>
             <div className="recipePageLayout">
+                <div className="recipePageTitle">
+                    <h1>{recipe.title}</h1>
+                </div>
                 <div className="recipePageLeft">
                     <div className="recipeTop">
                         <div className="imageContainer leftRecipe">
@@ -33,9 +36,6 @@ function SingleRecipePage() {
                             />
                         </div>
                         <div className="rightRecipe">
-                            <div className="recipePageTitle">
-                                <h1>{recipe.title}</h1>
-                            </div>
                             <div className="ingredients list">
                                 <h3 className="mgn-10">Ingredients</h3>
                                 {recipe.ingredients?.map((ingredient) => (
@@ -45,7 +45,9 @@ function SingleRecipePage() {
                                 ))}
                             </div>
                             <div>
-                                <p>Time: {recipe.time}</p>
+                                <p>
+                                    <strong>Time:</strong> {recipe.time}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +62,7 @@ function SingleRecipePage() {
                         </ol>
                     </div>
                 </div>
-                <div className="recipePageRight"></div>
+                <div className="recipePageRight">Hello from the other side</div>
             </div>
         </>
     );
