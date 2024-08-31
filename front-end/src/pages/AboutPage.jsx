@@ -1,3 +1,5 @@
+import Image from "../photos/Site-Photos/CYC-Group-Pic.jpeg";
+
 export function AboutPage() {
     return (
         <>
@@ -41,6 +43,10 @@ export function AboutPage() {
                         during that time.This website is an homage to those
                         classes and to my friends.
                     </p>
+                    <img
+                        src={Image}
+                        alt="My group of friends at a wedding night"
+                    />
                 </div>
             </div>
         </>
